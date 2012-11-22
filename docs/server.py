@@ -15,7 +15,7 @@ and login pages as in oauth-server for php codeigniter
 '''
 import oauthlib
 
-class APIHandler(oauthlib.oauth1.rfc5849.Server):
+class OAuthServer(oauthlib.oauth1.rfc5849.Server):
     '''
     Skeleton of oauth1 implemetation class based on the oauthlib python library
     I will commit
